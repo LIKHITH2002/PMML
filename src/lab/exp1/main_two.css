@@ -1,0 +1,33 @@
+#mainAbsolute {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+}
+#mainRelative {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+#left {
+	float: left;
+	height: 100%;
+	width: 200px;
+	position: absolute;
+	background-image: url(images/line.png);
+	left: 0px;
+	right: auto;
+}
+#right {
+	float: right;
+	height: 100%;
+	width: 200px;
+	position: absolute;
+	background-image: url(images/line.png);
+	left: auto;
+	right: 0px;
+}

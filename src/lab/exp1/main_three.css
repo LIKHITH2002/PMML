@@ -1,0 +1,12 @@
+#roughAbsoulote {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+#object {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
